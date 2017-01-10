@@ -5,8 +5,8 @@
 	padding-right: 0;
 }
 .hero-body{
- 	background-color: #2977c5;
- 	height: 150px;
+ 	padding: 0 0;
+ 	margin-bottom: -0.4rem;
 }
 .hero-head{
 	background-color:#fff;
@@ -21,17 +21,24 @@
 }
 .tabs a {
 	color: #f0f1f3;
-	padding: 6px 33px;
+	padding: 6px 30px;
 	font-size: 20px;
 	font-family: 'Microsoft YaHei';
 }
 .tabs.is-boxed li.is-active a {
 	background-color: #56b6e8;
 	color: #fff;
+	border: 0;
+    border-radius: 0;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    border: 3px solid transparent;
 }
 .tabs.is-boxed a:hover{
     background-color: #56b6e8;
     color: #ffffff;
+    border: 0;
+    border-radius: 0;
 }
 .nav{
 	min-height: 35px;
@@ -115,7 +122,7 @@ button.btn-login{
     border-bottom-color: #0056b2;
     color: #0056b2;
     font-family: 'Microsoft YaHei';
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .tabs li.is-bottom a {
@@ -202,7 +209,7 @@ a{
     color: #959595;
 }
 
-a.a-nowrap:hover{
+a:hover{
 	color: #ff9e21;
 }
 
@@ -272,11 +279,11 @@ article.text-center{
 .foot-copyright{
 	height: 2rem;
 	color: #fff;
-    background-color: #2186de;
+    background-color: #0056b2;
     margin: 1.75rem -1.5rem 0 -1.5rem;
     align-items: center;
     justify-content: center;
-   	font-size: 10px;
+   	font-size: 14px;
 	font-family: 'Microsoft YaHei';
 }
 
@@ -293,4 +300,8 @@ article.text-center{
 	font-size: 14px;
 	font-family: 'Microsoft YaHei';
 	color: #959595;
+}
+
+select.h-3rem,.h-3rem{
+	height:3.5rem;
 }
